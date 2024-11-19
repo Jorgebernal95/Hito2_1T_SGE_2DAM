@@ -1,23 +1,25 @@
 Hito 2 - SGE 2º DAM
 Aplicación de Encuestas con Tkinter y MySQL
-
 Descripción del Proyecto
-Este proyecto permite gestionar encuestas relacionadas con el consumo de alcohol y su impacto en la salud. Utiliza Tkinter para la interfaz gráfica de usuario y MySQL para el almacenamiento y manipulación de datos. Además, incluye funcionalidades para analizar y visualizar los datos mediante gráficos.
+Este proyecto gestiona encuestas relacionadas con el consumo de alcohol y su relación con problemas de salud. Combina:
 
+Tkinter para la interfaz gráfica de usuario.
+MySQL para el almacenamiento y manipulación de datos.
+Herramientas para visualizar datos mediante gráficos.
 Requisitos
-Asegúrate de tener los siguientes elementos instalados antes de ejecutar la aplicación:
+Antes de ejecutar la aplicación, asegúrate de contar con:
 
 Python 3.x
-Tkinter (viene preinstalado con Python en la mayoría de los casos)
+Tkinter (preinstalado con Python en la mayoría de los casos).
 MySQL
-Librerías Python adicionales:
+Las siguientes librerías adicionales:
 pymysql
 pandas
 matplotlib
 openpyxl
 Configuración Inicial
-Crear la base de datos y la tabla
-Ejecuta los siguientes comandos en tu gestor de base de datos MySQL:
+Base de datos y tabla
+Configura la base de datos ejecutando los siguientes comandos en tu gestor MySQL:
 
 sql
 Copiar código
@@ -41,36 +43,29 @@ CREATE TABLE ENCUESTA (
     DolorCabeza VARCHAR(10)
 );
 Instalar dependencias
-Usa pip para instalar las librerías necesarias:
+Ejecuta este comando en la terminal para instalar las librerías necesarias:
 
 bash
 Copiar código
 pip install pymysql pandas matplotlib openpyxl
 Funcionalidades
 Operaciones CRUD
-Crear: Agrega nuevos registros a la base de datos a través de una ventana dedicada.
-Leer: Visualiza todos los registros almacenados en la tabla.
-Actualizar: Modifica datos de registros seleccionados.
-Eliminar: Borra registros específicos de la base de datos.
+Crear: Permite agregar nuevos registros mediante un formulario interactivo.
+Leer: Muestra todos los registros almacenados en la base de datos.
+Actualizar: Permite modificar registros existentes seleccionados.
+Eliminar: Elimina registros seleccionados de la base de datos.
 Visualización de Gráficos
-Consumo por Edad:
-Muestra un gráfico de barras que representa el consumo de bebidas por grupos de edad.
+Consumo por Edad: Gráfico de barras que muestra el consumo promedio por grupo de edad.
 Gráficos Personalizados:
-Gráfico de Barras: Visualiza el consumo de bebidas según la edad.
-Gráfico de Pastel: Muestra la distribución del consumo por sexo.
-Promedios por Grupo de Edad:
-Genera un gráfico de barras con los valores promedio de consumo de bebidas según grupos de edad.
-Correlación Consumo-Salud:
-Presenta un gráfico de dispersión para analizar la relación entre el consumo de alcohol y problemas digestivos.
+Gráfico de barras con consumo por edad.
+Gráfico de pastel con la distribución por sexo.
+Promedios por Grupo de Edad: Genera un gráfico de barras mostrando el promedio de consumo en diferentes grupos de edad.
+Correlación Consumo-Salud: Genera un gráfico de dispersión que analiza la relación entre consumo de alcohol y problemas de salud.
 Uso
-Ejecuta el programa desde tu IDE o terminal.
-Utiliza los botones de la interfaz para realizar las siguientes acciones:
-Agregar Registro: Rellena el formulario y haz clic en "Agregar".
-Actualizar Registro: Selecciona un registro, edita los datos y haz clic en "Actualizar".
-Eliminar Registro: Selecciona un registro y haz clic en "Eliminar".
-Visualizar Gráficos: Navega por las opciones disponibles para generar y analizar gráficos.
-Capturas de Pantalla
-(Opcional: Puedes incluir capturas de pantalla para mostrar la interfaz de usuario y los gráficos generados)
-
-Autor
-Proyecto desarrollado por [Tu Nombre] como parte del segundo curso de Desarrollo de Aplicaciones Multiplataforma.
+Ejecuta el programa desde tu entorno de desarrollo o terminal.
+Usa los botones en la interfaz para interactuar con la base de datos:
+Agregar Registro: Completa el formulario y guarda un nuevo registro.
+Leer Registros: Muestra todos los registros almacenados.
+Actualizar Registro: Edita los datos de un registro existente.
+Eliminar Registro: Borra un registro seleccionado.
+Accede a las opciones de gráficos para analizar los datos almacenados.
