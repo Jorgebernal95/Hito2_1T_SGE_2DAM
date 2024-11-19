@@ -73,10 +73,10 @@ Correlación Consumo-Salud: Genera un gráfico de dispersión que analiza la rel
 Ejecuta el programa desde tu entorno de desarrollo o terminal
 Usa los botones en la interfaz para interactuar con la base de datos:
 
-Agregar Registro: Completa el formulario y guarda un nuevo registro
-Leer Registros: Muestra todos los registros almacenados
-Actualizar Registro: Edita los datos de un registro existente
-Eliminar Registro: Borra un registro seleccionado
+* Agregar Registro: Completa el formulario y guarda un nuevo registro
+* Leer Registros: Muestra todos los registros almacenados
+* Actualizar Registro: Edita los datos de un registro existente
+* Eliminar Registro: Borra un registro seleccionado
 
 
 
